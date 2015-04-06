@@ -3,6 +3,9 @@ dictionary files from http://sourceforge.net/projects/wordlist/files/speller/201
 en_US-large.aff
 en_US-large.dic
 README_en_US-large.txt
+README_en_US.txt
+en_US.aff
+en_US.dic
 
 contains imdb lists from http://www.imdb.com/interfaces
 countries.list
