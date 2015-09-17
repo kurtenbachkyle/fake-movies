@@ -12,5 +12,5 @@ countries.list
 movies.list
 ratings.list
 
-generated popular-movies.list from
-iconv -f ISO-8859-1 -t UTF-8 ratings.list | tail -n +297 | head -n -147 | awk '{if($2 > 25000 && $4 !~ "^\"") print $0}' | cut -c 33- | rev | cut -c 7- | rev > popular-movies.list
+I generated movies.list using the ratings from imdb and the following bash oneliner (on ubuntu, using gawk)
+iconv -f ISO-8859-1 -t UTF-8 ratings.list | tail -n +297 | head -n -147 | awk '{if($2 > 25000 && $4 !~ "^\"") print $0}' | cut -c 33- | rev | cut -c 7- | rev > movies.list
