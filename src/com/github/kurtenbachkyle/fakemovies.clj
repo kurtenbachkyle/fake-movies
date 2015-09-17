@@ -1,4 +1,4 @@
-(ns com.kurtenbachkyle.fakemovies
+(ns com.github.kurtenbachkyle.fakemovies
   (:require [clojure.java.io :as io])
   (import com.atlascopco.hunspell.Hunspell))
 

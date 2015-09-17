@@ -1,4 +1,4 @@
-(defproject com.kurtenbachkyle.fakemovies "0.1.0-SNAPSHOT"
+(defproject com.github.kurtenbachkyle.fakemovies "0.1.0-SNAPSHOT"
   :description "Searches movie titles for movies which are still valid after a letter is removed."
   :url "https://github.com/kurtenbachkyle/fake-movies"
   :license {:name "Eclipse Public License"

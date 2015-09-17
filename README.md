@@ -1,4 +1,4 @@
-# com.kurtenbachkyle.fakemovies
+# com.github.kurtenbachkyle.fakemovies
 
 Searches movie titles for movies which are still valid after a letter is removed. 
 
