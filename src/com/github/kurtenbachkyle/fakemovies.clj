@@ -48,4 +48,4 @@
                result))))))
 
 (defn get-alt-movie-titles [] 
-  (process-word-file "resources/popular-movies.list" "resources/my-out.txt"))
+  (process-word-file "resources/popular-movies.list" "resources/my-movies.txt"))
